@@ -3,7 +3,9 @@
         <title>Accessbility Title</title>
     </head>
     <body>
-        <h1>Normal accessbility Test</h1>
+        <div>
+            <h1>Normal accessbility Test</h1>
+        `</div>
         <form action="#" method="post">
             <div>
                 <a href="#">Exercise</a>
@@ -16,10 +18,16 @@
                 <a href="#">Paid</a>
                 <a href="#">Course</a>
                 <a href="#">New</a><br>
-                <button type="submit">Ok</button>
-                <button type="button">Cancel</button>
+                <button type="button" accesskey="k">O<u>K</u></button>
+                <button type="button" accesskey="c"><u>C</u>ancel</button>
+            </div><br>
+            <div>
+                Note: Press <span style="color:red">"Alt + K"</span> to focus the <span style="color:green">Ok Button</span> and press <span style="color:red">"Alt + C"</span> to focus the <span style="color:green">Canel Button</span>
             </div>
         </form>
+        <script>
+
+        </script>
     </body>
 
 </html>
